@@ -1,0 +1,94 @@
+.result {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 200px;
+    margin: 10px;
+    padding: 0em;
+    text-align: center;
+  }
+
+.card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+    border-radius: 1em;
+  }
+  .btn {
+    border-radius: 50%;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 2em;
+    cursor: pointer;
+    
+    margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: darkblue;
+    transition: 0.3s;
+    border-radius: 2em;
+  }
+  .btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(74, 79, 94, 0.3);
+    transform: scale(1.05);
+    background: blue;
+  }
+  .inputNumber{
+    width: 4em;
+    text-align: right;
+    font-size: larger;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  .inputNumber:focus {
+	outline: 2px solid blue;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background: darkblue;
+    color: #fff;
+    margin-bottom: 0;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+h2::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right: 1.5rem solid #fff;
+    border-top: 3rem solid transparent;
+    border-bottom: 3rem solid transparent;
+  }
+  .message{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 2em;
+    font-size: large;
+
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: .5rem 1.5rem;
+    border: .25rem solid darkblue;
+    color: darkblue;
+    border-radius: 2em;
+  }
